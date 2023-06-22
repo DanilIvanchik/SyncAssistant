@@ -12,6 +12,8 @@ public class ChatController {
     @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
     public ChatMessage sendMassage(@Payload ChatMessage chatMessage){
+
+        chatMessage.setContent(chatMessage.getContent());
         return chatMessage;
     }
 

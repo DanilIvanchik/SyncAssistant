@@ -57,7 +57,7 @@ h1 {
 }
 
 a {
-    color: #6db33f;
+    color: #41B0E5;
 }
 
 button {
@@ -82,13 +82,13 @@ button.default {
 }
 
 button.primary {
-    background-color: #6db33f;
+    background-color: #41B0E5;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
 }
 
 button.accent {
-    background-color: #6db33f;
+    background-color: #41B0E5;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
 }
